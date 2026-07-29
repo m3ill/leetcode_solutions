@@ -9,5 +9,8 @@ file(GLOB_RECURSE SOURCES "*.cpp")
 # Bulunan her .cpp dosyası için çalıştırılabilir bir hedef oluştur
 foreach(source_file ${SOURCES})
     get_filename_component(name ${source_file} NAME_WE)
-    add_executable(${name} ${source_file})
+    add_executable(${name} ${source_file}
+            03-arrays-and-math/0013-roman-to-integer.cpp
+            03-arrays-and-math/0035-search-insert-position.cpp
+            03-arrays-and-math/0134-gas-station.cpp)
 endforeach()
