@@ -12,5 +12,7 @@ foreach(source_file ${SOURCES})
     add_executable(${name} ${source_file}
             03-arrays-and-math/0013-roman-to-integer.cpp
             03-arrays-and-math/0035-search-insert-position.cpp
-            03-arrays-and-math/0134-gas-station.cpp)
+            03-arrays-and-math/0134-gas-station.cpp
+            02-linked-list/0002-add-two-numbers.cpp
+            04-backtracking/0046-permutations.cpp)
 endforeach()
