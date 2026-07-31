@@ -1,7 +1,11 @@
-//
-// Created by Mertcan on 29.07.2026.
-//
-
+/*
+* Problem: LeetCode 134 - Gas Station
+ * Author: Mertcan
+ * GitHub: https://github.com/m3ill
+ * Pattern: Greedy
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
+ */
 #include <vector>
 
 class solution {

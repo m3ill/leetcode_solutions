@@ -1,6 +1,11 @@
-//
-// Created by Mertcan on 29.07.2026.
-//
+/*
+* Problem: LeetCode 35 - Search Insert Position
+ * Author: Mertcan
+ * GitHub: https://github.com/m3ill
+ * Pattern: Binary Search
+ * Time Complexity: O(log n)
+ * Space Complexity: O(1)
+ */
 
 #include <vector>
 

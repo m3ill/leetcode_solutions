@@ -1,5 +1,7 @@
 /*
 * Problem: LeetCode 11 - Container With Most Water
+ * Author: Mertcan
+ * GitHub: https://github.com/m3ill
  * Pattern: Two Pointers
  * Time Complexity: O(n)
  * Space Complexity: O(1)

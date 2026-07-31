@@ -1,15 +1,20 @@
-    //
-    // Created by Mertcan on 29.07.2026.
-    //
+/*
+* Problem: LeetCode 13 - Roman to Integer
+ * Author: Mertcan
+ * GitHub: https://github.com/m3ill
+ * Pattern: Hash Table / String Parsing
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
+ */
 
-    #include <string>
+#include <string>
     #include <unordered_map>
     #include <__fwd/string.h>
 
-    class Solution {
-        public:
+class Solution {
+public:
 
-        int romanToInt(std::string s) {
+    int romanToInt(std::string s) {
             std::unordered_map<char, int> RomanMap= {
                 {'I',1},
                 {'V' ,5},
@@ -33,6 +38,6 @@
             }
 
             return total;
-        }
+    }
 
-    };
+};

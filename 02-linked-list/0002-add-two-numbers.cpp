@@ -1,6 +1,11 @@
-//
-// Created by Mertc on 30.07.2026.
-//
+/*
+* Problem: LeetCode 2 - Add Two Numbers
+ * Author: Mertcan
+ * GitHub: https://github.com/m3ill
+ * Pattern: Linked List / Elementary Math
+ * Time Complexity: O(max(m, n))
+ * Space Complexity: O(max(m, n))
+ */
 
 struct ListNode {
     int val;

@@ -1,7 +1,14 @@
+/*
+* Problem: LeetCode 46 - Permutations
+ * Author: Mertcan
+ * GitHub: https://github.com/m3ill
+ * Pattern: Backtracking
+ * Time Complexity: O(n * n!)
+ * Space Complexity: O(n) extra space (excluding the output vector)
+ */
+
 #include <vector>
-//
-// Created by Mertc on 30.07.2026.
-//
+
 class Solution {
     public:
 
