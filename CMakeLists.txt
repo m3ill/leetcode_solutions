@@ -17,5 +17,6 @@ foreach(source_file ${SOURCES})
             04-backtracking/0046-permutations.cpp
             03-arrays-and-math/0238-product-of-array-except-self.cpp
             02-linked-list/0019-remove-nth-node-from-end-of-list.cpp
+            05-stack/0739-daily-temperatures.cpp
     )
 endforeach()

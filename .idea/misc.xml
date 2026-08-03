@@ -10,6 +10,7 @@
       <file path="$PROJECT_DIR$/02-linked-list" />
       <file path="$PROJECT_DIR$/03-arrays-and-math" />
       <file path="$PROJECT_DIR$/04-backtracking" />
+      <file path="$PROJECT_DIR$/05-stack" />
     </sourceRoots>
   </component>
 </project>
