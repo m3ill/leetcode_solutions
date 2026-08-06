@@ -19,5 +19,6 @@ foreach(source_file ${SOURCES})
             02-linked-list/0019-remove-nth-node-from-end-of-list.cpp
             05-stack/0739-daily-temperatures.cpp
             05-stack/0150-evaluate-reverse-polish-notation.cpp
+            06-binary-search/0875-koko-eating-bananas.cpp
     )
 endforeach()
