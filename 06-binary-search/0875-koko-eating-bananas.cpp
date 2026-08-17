@@ -11,8 +11,7 @@ class solution {
         int low = 1;
         int high = *max_element(piles.begin(), piles.end());
         int ans = high;
-
-        piles.
+        
 
         while (low <= high) {
             int mid = low + (high - low) / 2;

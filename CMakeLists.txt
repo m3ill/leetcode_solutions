@@ -21,5 +21,6 @@ foreach(source_file ${SOURCES})
             05-stack/0150-evaluate-reverse-polish-notation.cpp
             06-binary-search/0875-koko-eating-bananas.cpp
             06-binary-search/1011-capacity-to-ship-packages-within-d-days.cpp
+            03-arrays-and-math/0217-contains-duplicate.cpp
     )
 endforeach()
