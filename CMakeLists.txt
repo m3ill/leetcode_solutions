@@ -23,5 +23,6 @@ foreach(source_file ${SOURCES})
             06-binary-search/1011-capacity-to-ship-packages-within-d-days.cpp
             03-arrays-and-math/0217-contains-duplicate.cpp
             03-arrays-and-math/0049-group-anagrams.cpp
+            03-arrays-and-math/0242-valid-anagram.cpp
     )
 endforeach()
