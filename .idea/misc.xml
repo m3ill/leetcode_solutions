@@ -8,6 +8,7 @@
     <sourceRoots>
       <file path="$PROJECT_DIR$/01-two-pointers" />
       <file path="$PROJECT_DIR$/02-linked-list" />
+      <file path="$PROJECT_DIR$/03-arrays-and-hashing" />
       <file path="$PROJECT_DIR$/03-arrays-and-math" />
       <file path="$PROJECT_DIR$/04-backtracking" />
       <file path="$PROJECT_DIR$/05-stack" />
