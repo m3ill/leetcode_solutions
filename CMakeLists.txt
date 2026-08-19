@@ -26,5 +26,6 @@ foreach(source_file ${SOURCES})
             03-arrays-and-math/0242-valid-anagram.cpp
             03-arrays-and-hashing/0347-top-k-frequent-elements.cpp
             01-two-pointers/0283-move-zeroes.cpp
+            01-two-pointers/0167-two-sum-ii-input-array-is-sorted.cpp
     )
 endforeach()
