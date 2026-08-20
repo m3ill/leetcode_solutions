@@ -16,7 +16,7 @@ public:
         std::unordered_set<int> seenNumbers;
         size_t n = nums.size();
         for (size_t i = 0; i < n; i++) {
-            if (seenNumbers.contains(nums[i])) {
+            if (seenNumbers.find(nums[i]) != seenNumbers.end()) {
                 return true;
             } else {
                 seenNumbers.insert(nums[i]);

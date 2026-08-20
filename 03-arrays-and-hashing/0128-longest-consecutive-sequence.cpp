@@ -27,10 +27,10 @@ public:
 
   int result = 1;
   for(int num : numSet){
-   if(!numSet.contains(num-1)){
+   if(numSet.find(num - 1) == numSet.end()){
     int current_length = 1;
     int j = 1;
-    while(numSet.contains(num+j)){
+    while(numSet.find(num + j) != numSet.end()){
      current_length++;
      j++;
     }

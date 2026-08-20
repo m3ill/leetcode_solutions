@@ -19,7 +19,7 @@ public:
         //bu sayı mı 0 mı ona bakacak
         int right = 0;
 
-        while(right < nums.size()){
+        while(right < static_cast<int>(nums.size())){
             if(nums[right] != 0){
                 std::swap(nums[right], nums[left]);
 

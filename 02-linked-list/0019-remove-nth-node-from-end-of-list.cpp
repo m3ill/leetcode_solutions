@@ -13,42 +13,25 @@ struct ListNode {
     ListNode(int x, ListNode *next) : val(x), next(next) {};
 };
 
-class solution {
+class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
-        if (head == nullptr) {return nullptr;}
-        if (head->next == nullptr) {
-            delete head;
-            return nullptr;
-        }
-        //listede kaç tane değer var onu bulacağız
-        ListNode *temp= head;
-        int length = 0;
-        while (temp != nullptr) {
-            temp = temp->next;
-            length++;
+        ListNode dummy(0, head);
+        ListNode* fast = &dummy;
+        ListNode* slow = &dummy;
+
+        for (int i = 0; i <= n; ++i) {
+            fast = fast->next;
         }
 
-        if (length == n) {
-            temp = head;
-            head = head->next;
-            delete temp;
-            return head;
+        while (fast != nullptr) {
+            fast = fast->next;
+            slow = slow->next;
         }
 
-        int removed_index = length-n-1;
-
-        temp = head;
-        for (int i = removed_index; i > 0; i--) {
-            temp = temp->next;
-        }
-
-        ListNode* new_node = temp->next;
-        temp->next = temp->next->next;
-        delete new_node;
-        new_node = nullptr;
-
-
-        return head;
+        ListNode* removed = slow->next;
+        slow->next = removed->next;
+        delete removed;
+        return dummy.next;
     }
 };

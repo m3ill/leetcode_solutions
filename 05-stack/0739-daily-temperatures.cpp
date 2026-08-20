@@ -10,21 +10,20 @@
 
 #include <stack>
 #include <vector>
-class solution {
-    public:
+class Solution {
+public:
     std::vector<int> dailyTemperatures(std::vector<int>& temperatures) {
         int n = temperatures.size();
         std::vector<int> result(n,0);
-        std::stack<int> stack;
+        std::stack<int> indices;
 
         for (int i = 0; i < n; i++) {
-            while (!stack.empty() && temperatures[stack.top()] < temperatures[i]) {
-                int top = stack.top();
-                stack.pop();
-                int answer_index = i - top;
-                result[top] = temperatures[answer_index];
+            while (!indices.empty() && temperatures[indices.top()] < temperatures[i]) {
+                int previous_day = indices.top();
+                indices.pop();
+                result[previous_day] = i - previous_day;
             }
-            stack.push(i);
+            indices.push(i);
         }
 
         return result;

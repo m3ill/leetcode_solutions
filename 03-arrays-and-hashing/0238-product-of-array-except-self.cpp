@@ -9,8 +9,8 @@
 
 #include <vector>
 
-class solution {
-    public:
+class Solution {
+public:
     std::vector<int> productExceptSelf(std::vector<int>& nums) {
         int n = nums.size();
 

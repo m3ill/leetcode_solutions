@@ -8,8 +8,7 @@
  */
 
 #include <string>
-    #include <unordered_map>
-    #include <__fwd/string.h>
+#include <unordered_map>
 
 class Solution {
 public:

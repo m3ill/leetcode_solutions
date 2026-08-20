@@ -10,9 +10,9 @@ Welcome to my personal LeetCode repository! Here, I systematically document my p
 
 | Category | Solved | Total Available |
 | :--- | :---: | :---: |
-| 🟢 **Easy** | **4** | 956 |
-| 🟡 **Medium** | **9** | 2091 |
-| 🔴 **Hard** | **0** | 956 |
+| 🟢 **Easy** | **2** | — |
+| 🟡 **Medium** | **11** | — |
+| 🔴 **Hard** | **0** | — |
 | 🎯 **Total Solved** | **13** | 4003 |
 
 ### 🛠️ Languages Used
@@ -24,14 +24,12 @@ Welcome to my personal LeetCode repository! Here, I systematically document my p
 ## 📂 Topics & Solved Problems
 
 ### 1. Two Pointers & Sliding Window
-- [x] [0003. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) - *Medium*
 - [x] [0011. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) - *Medium*
-- [x] [0015. 3Sum](https://leetcode.com/problems/3sum/) - *Medium*
+- [x] [0424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) - *Medium*
 
 ### 2. Linked List
 - [x] [0002. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) - *Medium*
 - [x] [0019. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) - *Medium*
-- [x] [0143. Reorder List](https://leetcode.com/problems/reorder-list/) - *Medium*
 
 ### 3. Arrays, Hashing & Math
 - [x] [0013. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) - *Easy*
@@ -41,6 +39,14 @@ Welcome to my personal LeetCode repository! Here, I systematically document my p
 
 ### 4. Backtracking & Combinatorics
 - [x] [0046. Permutations](https://leetcode.com/problems/permutations/) - *Medium*
+
+### 5. Stack
+- [x] [0150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) - *Medium*
+- [x] [0739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) - *Medium*
+
+### 6. Binary Search
+- [x] [0875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) - *Medium*
+- [x] [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) - *Medium*
 
 ---
 

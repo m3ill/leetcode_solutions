@@ -8,8 +8,8 @@
  */
 #include <vector>
 
-class solution {
-    public:
+class Solution {
+public:
     int canCompleteCircuit(std::vector<int>& gas, std::vector<int>& cost) {
         int total_gas = 0;
         int current_gas = 0;
