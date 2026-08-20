@@ -10,14 +10,13 @@ Welcome to my personal LeetCode repository! Here, I systematically document my p
 
 | Category | Solved | Total Available |
 | :--- | :---: | :---: |
-| 🟢 **Easy** | **2** | — |
-| 🟡 **Medium** | **11** | — |
+| 🟢 **Easy** | **5** | — |
+| 🟡 **Medium** | **15** | — |
 | 🔴 **Hard** | **0** | — |
-| 🎯 **Total Solved** | **13** | 4003 |
+| 🎯 **Total Solved** | **20** | — |
 
 ### 🛠️ Languages Used
-- **C** (8 problems solved)
-- **C++** (5 problems solved)
+- **C++** (20 problems solved)
 
 ---
 
@@ -25,6 +24,8 @@ Welcome to my personal LeetCode repository! Here, I systematically document my p
 
 ### 1. Two Pointers & Sliding Window
 - [x] [0011. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) - *Medium*
+- [x] [0167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) - *Medium*
+- [x] [0283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) - *Easy*
 - [x] [0424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) - *Medium*
 
 ### 2. Linked List
@@ -34,8 +35,13 @@ Welcome to my personal LeetCode repository! Here, I systematically document my p
 ### 3. Arrays, Hashing & Math
 - [x] [0013. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) - *Easy*
 - [x] [0035. Search Insert Position](https://leetcode.com/problems/search-insert-position/) - *Easy*
+- [x] [0049. Group Anagrams](https://leetcode.com/problems/group-anagrams/) - *Medium*
+- [x] [0128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) - *Medium*
 - [x] [0134. Gas Station](https://leetcode.com/problems/gas-station/) - *Medium*
+- [x] [0217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) - *Easy*
 - [x] [0238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) - *Medium*
+- [x] [0242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) - *Easy*
+- [x] [0347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) - *Medium*
 
 ### 4. Backtracking & Combinatorics
 - [x] [0046. Permutations](https://leetcode.com/problems/permutations/) - *Medium*
