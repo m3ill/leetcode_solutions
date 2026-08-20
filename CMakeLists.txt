@@ -27,5 +27,6 @@ foreach(source_file ${SOURCES})
             03-arrays-and-hashing/0347-top-k-frequent-elements.cpp
             01-two-pointers/0283-move-zeroes.cpp
             01-two-pointers/0167-two-sum-ii-input-array-is-sorted.cpp
+            03-arrays-and-hashing/0128-longest-consecutive-sequence.cpp
     )
 endforeach()
