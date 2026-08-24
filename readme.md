@@ -11,12 +11,12 @@ Welcome to my personal LeetCode repository! Here, I systematically document my p
 | Category | Solved | Total Available |
 | :--- | :---: | :---: |
 | 🟢 **Easy** | **5** | — |
-| 🟡 **Medium** | **15** | — |
+| 🟡 **Medium** | **16** | — |
 | 🔴 **Hard** | **0** | — |
-| 🎯 **Total Solved** | **20** | — |
+| 🎯 **Total Solved** | **21** | — |
 
 ### 🛠️ Languages Used
-- **C++** (20 problems solved)
+- **C++** (21 problems solved)
 
 ---
 
@@ -42,6 +42,7 @@ Welcome to my personal LeetCode repository! Here, I systematically document my p
 - [x] [0238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) - *Medium*
 - [x] [0242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) - *Easy*
 - [x] [0347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) - *Medium*
+- [x] [0560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) - *Medium*
 
 ### 4. Backtracking & Combinatorics
 - [x] [0046. Permutations](https://leetcode.com/problems/permutations/) - *Medium*
