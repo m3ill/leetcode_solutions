@@ -5,16 +5,14 @@
  * Space Complexity: O(1)
  */
 
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
+struct ListNode {
+    int val;
+    ListNode* next;
+    ListNode() : val(0), next(nullptr) {}
+    explicit ListNode(int value) : val(value), next(nullptr) {}
+    ListNode(int value, ListNode* nextNode) : val(value), next(nextNode) {}
+};
+
 class Solution {
 public:
     void reorderList(ListNode* head) {
